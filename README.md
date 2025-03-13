@@ -52,6 +52,9 @@ Enter a sentence: We should watch the dog work in a cave.
 We/PRO should/MOD watch/V the/DET dog/N work/V in/P a/DET cave/N ./. 
 ```
 
+##Results
+-Achieved 95.6% accuracy in identifying POST taggers with 34792 correct and 1602 incorrect words
+
 ## Authors
 - **Richmond Nartey Tettey** (03/27/2025)
 - **Samuel Jin** (03/27/2025)
