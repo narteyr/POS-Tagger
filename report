@@ -1,0 +1,8 @@
+Write a file-based test method to evaluate the performance on a pair of test files (corresponding lines with sentences and tags).
+Train and test with the two example cases provided in texts.zip: "example" are the sentences and tags above,
+"simple" is just some made up sentences and tags, and "brown" is the full corpus of sentences and tags.
+The sample solution got 32 tags right and 5 wrong for simple, and 35109 right vs. 1285 wrong for brown,
+with an unseen-word penalty of -100. (Note: these are using natural log; if you use log10 there might be some differences.)
+In a short report, provide some example new sentences that are tagged as expected and some that aren't, discussing why.
+Also discuss your overall testing performance, and how it depends on the unseen-word penalty (and any other parameters you use).
+
